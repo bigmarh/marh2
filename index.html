@@ -1,0 +1,19 @@
+<body>
+	<script src="https://unpkg.com/mithril/mithril.js"></script>
+
+    <script>
+    var people = [
+        { id: 1, name: "John" },
+        { id: 2, name: "Mary" },
+    ]
+
+    function userList(users) {
+        return users.map(function(u) {
+            return m("button", u.name) // <button>John</button>
+            // <button>Mary</button>
+        })
+    }
+
+    m.render(document.body, userList(people))
+    </script>
+</body>

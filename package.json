@@ -1,0 +1,15 @@
+{
+  "name": "marh2",
+  "version": "0.0.1",
+  "description": "Marh II ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lamar Wilson",
+  "license": "ISC",
+  "dependencies": {
+    "mithril": "^1.1.6",
+    "pubsub-js": "^1.6.0"
+  }
+}
